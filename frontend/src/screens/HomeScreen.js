@@ -56,9 +56,9 @@ function HomeScreen({ history }) {
             }
             <div className='note-container'>
                 <p className='p-lg add-title'>
-                    <button className='button-add-container' onClick={() => {setAddOpen(!addOpen)} }>
+                    <span className='add-span' onClick={() => {setAddOpen(!addOpen)} }>
                         <i class="fas fa-plus-circle button-add p-lg"></i>
-                    </button>
+                    </span>
                     add note
                 </p>
 

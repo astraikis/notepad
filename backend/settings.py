@@ -8,7 +8,7 @@ SECRET_KEY = '5(_%wi=wt&xkvy7jya(tks+d3070r)j!x(=a6*iory0fyw!m80'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost:3000', 'notepad-astraikis.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 # Application definition
 
@@ -104,18 +104,6 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'notepad',
-        'USER': 'jackson',
-        'PASSWORD': 'Concusion4!',
-        'HOST': 'notepad-identifier.cbalijs0wkoc.us-east-2.rds.amazonaws.com',
-        'PORT': '5432'
-    }
-}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
